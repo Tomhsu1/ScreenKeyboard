@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+<body>
+  <textarea readonly id="textbox"></textarea>
+    <div id="keyboard">
+      <div id="firstRow">
+        <p class="secondKeys" onmousedown="typing('`', '~')"> ~ <br> ` </p>
+        <p class="secondKeys" onmousedown="typing('1' , '!')"> ! <br> 1 </p>
+        <p class="secondKeys" onmousedown="typing('2', '@')"> @ <br> 2 </p>
+        <p class="secondKeys" onmousedown="typing('3', '#')"> # <br> 3 </p>
+        <p class="secondKeys" onmousedown="typing('4', '$')"> $ <br> 4 </p>
+        <p class="secondKeys" onmousedown="typing('5', '%')"> % <br> 5 </p>
+        <p class="secondKeys" onmousedown="typing('6', '^')"> ^ <br> 6 </p>
+        <p class="secondKeys" onmousedown="typing('7', '&')"> & <br> 7 </p>
+        <p class="secondKeys" onmousedown="typing('8', '*')"> * <br> 8 </p>
+        <p class="secondKeys" onmousedown="typing('9', '\(')"> ( <br> 9 </p>
+        <p class="secondKeys" onmousedown="typing('0', '\)')"> ) <br> 0 </p>
+        <p class="secondKeys" onmousedown="typing('-', '_')"> _ <br> - </p>
+        <p class="secondKeys" onmousedown="typing('=', '+')"> + <br> = </p>
+        <p class="bksp" onmousedown="typing('BKSP', '')"> BKSP </p>
+      </div>
+      <div id="secondRow">
+        <p class="tab" onmousedown="typing('TAB', '')"> TAB </p>
+        <p class="keys2" onmousedown="typing('q', '')"> Q </p>
+        <p class="keys2" onmousedown="typing('w', '')"> W </p>
+        <p class="keys2" onmousedown="typing('e', '')"> E </p>
+        <p class="keys2" onmousedown="typing('r', '')"> R </p>
+        <p class="keys2" onmousedown="typing('t', '')"> T </p>
+        <p class="keys2" onmousedown="typing('y', '')"> Y </p>
+        <p class="keys2" onmousedown="typing('u', '')"> U </p>
+        <p class="keys2" onmousedown="typing('i', '')"> I </p>
+        <p class="keys2" onmousedown="typing('o', '')"> O </p>
+        <p class="keys2" onmousedown="typing('p', '')"> P </p>
+        <p class="secondKeys" onmousedown="typing('[', '{')"> { <br> [ </p>
+        <p class="secondKeys" onmousedown="typing(']', '}')"> } <br> ] </p>
+        <p class="secondKeys" onmousedown="typing('\\', '|')"> | <br> \ </p>
+      </div>
+      <div id="thirdRow">
+        <p class="cplk" onmousedown="CAPSACTIVATION()"> CPSLK </p>
+        <p class="keys3" onmousedown="typing('a', '')"> A </p>
+        <p class="keys3" onmousedown="typing('s', '')"> S </p>
+        <p class="keys3" onmousedown="typing('d', '')"> D </p>
+        <p class="keys3" onmousedown="typing('f', '')"> F </p>
+        <p class="keys3" onmousedown="typing('g', '')"> G </p>
+        <p class="keys3" onmousedown="typing('h', '')"> H </p>
+        <p class="keys3" onmousedown="typing('j', '')"> J </p>
+        <p class="keys3" onmousedown="typing('k', '')"> K </p>
+        <p class="keys3" onmousedown="typing('l', '')"> L </p>
+        <p class="secondKeys" onmousedown="typing(';', ':')"> : <br> ; </p>
+        <p class="secondKeys" onmousedown="typing('\&apos;', '\&quot;')"> " <br> ' </p>
+        <p class="entr" onmousedown="typing('ENTR', '')"> ENTER </p>
+      </div>
+      <div id="fourthRow">
+        <p class="shift" onmousedown="SHIFTACTIVATION()"> SHIFT </p>
+        <p class="keys4" onmousedown="typing('z', '')"> Z </p>
+        <p class="keys4" onmousedown="typing('x', '')"> X </p>
+        <p class="keys4" onmousedown="typing('c', '')"> C </p>
+        <p class="keys4" onmousedown="typing('v', '')"> V </p>
+        <p class="keys4" onmousedown="typing('b', '')"> B </p>
+        <p class="keys4" onmousedown="typing('n', '')"> N </p>
+        <p class="keys4" onmousedown="typing('m', '')"> M </p>
+        <p class="secondKeys" onmousedown="typing(',', '\<')"> < <br> , </p>
+        <p class="secondKeys" onmousedown="typing('.', '\>')"> > <br> . </p>
+        <p class="secondKeys" onmousedown="typing('/', '?')"> ? <br> / </p>
+        <p class="shift" onmousedown="SHIFTACTIVATION()"> SHIFT </p>
+      </div>
+      <div id="lastRow">
+        <p class="spbr" onmousedown="typing('SPBR', '')">SPACEBAR</p>
+        <p id="leftArr" class="arrKeys" onmousedown="moveCursor('left')"> &#9664; </p>
+        <p id="upArr" class="arrKeys"> &#9650; </p>
+        <p id="downArr" class="arrKeys"> &#9660; </p>
+        <p id="rightArr" class="arrKeys" onmousedown="moveCursor('right')"> &#9658 </p>
+      </div>
+    </div>
+  </body>
+</html>
