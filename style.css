@@ -68,8 +68,8 @@
 }
 .arrKeys {
   display: inline-block;
-  width: 7vh;
-  height: 5vh;
+  width: 100px;
+  height: 40px;
   background-color: black;
   color: white;
   text-align: center;
