@@ -64,6 +64,7 @@
   font-size: 30px;
   margin-top: -5vh;
   user-select: none;
+  margin-left: 10vw;
 }
 .arrKeys {
   display: inline-block;
