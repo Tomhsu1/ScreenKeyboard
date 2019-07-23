@@ -1,0 +1,88 @@
+.keys2, .keys3, .keys4 {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  margin-top: -5vh;
+  user-select: none;
+}
+.keys1 {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: -5vh;
+  user-select: none;
+}
+.secondKeys {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: -5vh;
+  user-select: none;
+}
+.keys1:active, .keys2:active, .keys3:active, .keys4:active, .secondKeys:active{
+  background-color: turquoise;
+}
+#textbox {
+  width: 600px;
+  height: 100px;
+  margin-bottom: 5vh;
+  font-size: 3vh;
+}
+.bksp, .cplk, .entr, .shift, .tab {
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  margin-top: -5vh;
+  user-select: none;
+}
+.spkeys:active, .spbr:active, .entr:active, .bksp:active, .shift:active, .tab:active {
+  background-color: turquoise;
+}
+.spbr {
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  margin-top: -5vh;
+  user-select: none;
+}
+.arrKeys {
+  display: inline-block;
+  width: 7vh;
+  height: 5vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin-top: -3vh;
+  user-select: none;
+}
+.arrKeys:active {
+  background-color: turquoise;
+}
+#upArr {
+  position: absolute;
+}
+#downArr {
+  position: relative;
+  margin-top: 2.5vh;
+}
